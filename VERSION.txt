@@ -1,0 +1,3 @@
+CommunicatePars Windows iOS HID Mouse
+Version: 0.3.3-universal (betikler genel; exe degismedi)
+BTstack commit: 7fa68bd9ea40aa86672e6a47bef0ab9afc27506d

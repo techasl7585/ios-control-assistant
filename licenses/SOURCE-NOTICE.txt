@@ -1,0 +1,17 @@
+This experimental mouse-control binary is built from BlueKitchen BTstack.
+
+Upstream source: https://github.com/bluekitchen/btstack
+Commit: 7fa68bd9ea40aa86672e6a47bef0ab9afc27506d
+Example: example/hog_mouse_demo.c
+Windows port: port/windows-winusb-intel
+
+CommunicatePars changes add Windows Raw Input capture, left/right/middle mouse
+buttons, wheel reports, 8 ms report aggregation, and K-key capture/release.
+
+BTstack is free for non-commercial use. Commercial use requires a commercial
+license from BlueKitchen. See BTstack-LICENSE.txt and the upstream project for
+the complete terms.
+
+Intel firmware files are obtained by BTstack's Intel firmware make target from
+the linux-firmware project. See:
+https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/
